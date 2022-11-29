@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR /app-quasar
+WORKDIR /app-node
 COPY . .
-RUN yarn install
-ENTRYPOINT yarn start
+RUN npm install
+ENTRYPOINT npm start
