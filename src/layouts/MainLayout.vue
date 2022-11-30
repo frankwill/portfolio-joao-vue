@@ -7,7 +7,6 @@
             <img src="../../public/images/logo.svg" alt="" />
           </h1>
         </q-toolbar-title>
-
         <q-btn
           dense
           flat
@@ -22,7 +21,6 @@
 
     <!-- Menu lateral-->
     <q-drawer
-
       v-model="rightDrawerOpen"
       side="right"
       :width="200"
@@ -48,25 +46,6 @@
     </q-drawer>
 
     <q-page-container>
-      <q-page>
-        <section class="info">
-          <h2 class="info__tittle">Olá, meu nome é João Vitor!</h2>
-          <p class="info__text">
-            Bacharel em Administração de Empresas pela Universidade Anhembi
-            Morumbi.
-          </p>
-        </section>
-        <div class="info__button q-pa-md q-gutter-sm row justify-around">
-          <q-btn color="accent" icon="file_download" label="Download Cv" />
-          <q-btn
-            outline
-            border-color="grey"
-            text-color="accent"
-            label="Entre em contato"
-          />
-        </div>
-      </q-page>
-
       <router-view />
     </q-page-container>
   </q-layout>
