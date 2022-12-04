@@ -6,7 +6,9 @@
   "author": "frankwill <frank.will999@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -30,8 +32,8 @@
     "last 5 Opera versions"
   ],
   "engines": {
-    "node": ">= 12.22.1",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
+    "node": ">= 18.12.1",
+    "npm": ">= 8.19.2",
+    "yarn": ">= 1.22.19"
   }
 }
