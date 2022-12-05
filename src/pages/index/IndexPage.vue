@@ -1,64 +1,63 @@
 <template>
   <q-page class="q-pt-xl">
-    <section class="info animate__animated animate__fadeInLeft">
-      <h2 class="info__tittle">Olá, meu nome é João Vitor!</h2>
-      <p class="info__text">
+    <section class="info">
+      <h2 class="info__tittle"
+        data-aos="fade-left"
+        data-aos-delay="1000"
+        data-aos-easing="ease-in-sine"
+      >
+        Olá, meu nome é João Vitor!
+      </h2>
+      <p class="info__text"
+        data-aos="fade-right"
+        data-aos-delay="1000"
+        data-aos-easing="ease-in-sine"
+      >
         Bacharel em Administração de Empresas pela Universidade Anhembi Morumbi.
       </p>
     </section>
 
-    <section
-      class="
-        info__button
-        q-pa-md q-gutter-sm
-        row
-        justify-around
-        info
-        animate__animated animate__fadeInLeft animate__delay-1s
-      "
-    >
-      <q-btn color="accent" icon="file_download" label="Download Cv" />
+    <section class="info__button q-pa-md q-gutter-sm row justify-around info">
+      <q-btn color="accent" icon="file_download" label="Download Cv"
+        data-aos="fade-right"
+        data-aos-delay="1000"
+        data-aos-easing="ease-in-sine"
+      />
       <q-btn
         outline
         border-color="grey"
         text-color="accent"
         label="Entre em contato"
+        data-aos="fade-left"
+        data-aos-delay="1000"
+        data-aos-easing="ease-in-sine"
       />
     </section>
 
-    <section
-      class="
-        aboutme
-        column
-        items-center
-        q-mt-xl q-gutter-y-xl
-        info
-        animate__animated animate__fadeInLeft
-      "
-    >
+    <section class="aboutme column items-center q-mt-xl q-gutter-y-md info">
       <img
-        class="
-          aboutme-image
-          animate__animated animate__fadeInLeft animate__delay-2s
-        "
+        class="aboutme-image"
         src="../../../public/images/profile-img-1.svg"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-offset="700"
+        data-aos-easing="ease-in-sine"
       />
-      <div class="
-          animate__animated animate__fadeInLeft animate__delay-2s
-        "
+      <div
+        data-aos="fade-right"
+        data-aos-offset="600"
+        data-aos-easing="ease-in-sine"
       >
         <h2 class="aboutme-tittle">Sobre mim</h2>
-        <p class="aboutme-text text-center">
+        <p class="aboutme-text text-center q-px-lg">
           Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em
           Administração de empresas pela Universidade Anhembi Morumbi.
         </p>
       </div>
-      <article
-        class="
-          contacts
-          mobile-only
-          animate__animated animate__fadeInLeft animate__delay-1s
-        "
+      <article class="contacts mobile-only"
+        data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
       >
         <ul class="contacts-list row">
           <li class="q-mb-xl items-center column">
@@ -102,12 +101,16 @@
 <script>
 import { defineComponent } from "vue";
 import carouselScroll from "../../components/carouselScroll.vue";
-import "animate.css";
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+AOS.init();
 
 export default defineComponent({
   name: "IndexPage",
   components: {
     carouselScroll,
+    AOS,
   },
 });
 </script>
