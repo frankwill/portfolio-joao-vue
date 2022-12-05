@@ -1,14 +1,16 @@
 <template>
   <q-page class="q-pt-xl">
     <section class="info">
-      <h2 class="info__tittle"
+      <h2
+        class="info__tittle"
         data-aos="fade-left"
         data-aos-delay="1000"
         data-aos-easing="ease-in-sine"
       >
         Olá, meu nome é João Vitor!
       </h2>
-      <p class="info__text"
+      <p
+        class="info__text"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-easing="ease-in-sine"
@@ -18,7 +20,10 @@
     </section>
 
     <section class="info__button q-pa-md q-gutter-sm row justify-around info">
-      <q-btn color="accent" icon="file_download" label="Download Cv"
+      <q-btn
+        color="accent"
+        icon="file_download"
+        label="Download Cv"
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-easing="ease-in-sine"
@@ -40,24 +45,27 @@
         src="../../../public/images/profile-img-1.svg"
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        data-aos-offset="700"
-        data-aos-easing="ease-in-sine"
+        data-aos-offset="550"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
       />
       <div
         data-aos="fade-right"
         data-aos-offset="600"
-        data-aos-easing="ease-in-sine"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
       >
         <h2 class="aboutme-tittle">Sobre mim</h2>
         <p class="aboutme-text text-center q-px-lg">
           Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em
-          Administração de empresas pela Universidade Anhembi Morumbi.
-        </p>
+          Administração de empresas pela Universidade Anhembi Morumbi.</p>
       </div>
-      <article class="contacts mobile-only"
+      <article
+        class="contacts mobile-only"
         data-aos="fade-right"
         data-aos-offset="500"
         data-aos-easing="ease-in-sine"
+        data-aos-once="true"
       >
         <ul class="contacts-list row">
           <li class="q-mb-xl items-center column">
