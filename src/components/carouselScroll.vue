@@ -5,7 +5,7 @@
     data-aos-easing="ease-in-sine"
     data-aos-once="true"
   >
-    <h2 class="text-sections text-center">Experiência</h2>
+    <h2 id="link-experience" class="text-sections text-center">Experiência</h2>
     <q-carousel
       v-model="slide"
       swipeable

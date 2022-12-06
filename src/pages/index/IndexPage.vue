@@ -56,7 +56,7 @@
         data-aos-easing="ease-in-out"
         data-aos-once="true"
       >
-        <h2 class="aboutme-tittle">Sobre mim</h2>
+        <h2 id="link-about" class="aboutme-tittle">Sobre mim</h2>
         <p class="aboutme-text text-center q-px-lg">
           Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em
           Administração de empresas pela Universidade Anhembi Morumbi.

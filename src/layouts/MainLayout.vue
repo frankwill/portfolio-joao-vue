@@ -24,12 +24,14 @@
             flat 
             color="accent" 
             label="Sobre mim"
+            href="#link-about"
           />
           <q-btn 
             no-caps 
             flat 
             color="accent" 
             label="Experiência"
+            href="#link-experience"
           />
           <q-btn 
             no-caps 
@@ -46,7 +48,7 @@
       v-model="rightDrawerOpen"
       side="right"
       :width="200"
-      class="menu xs"
+      class="menu xs It-sm"
     >
       <q-list class="menu__list">
         <template v-for="(menuItem, index) in menuList" :key="index">
@@ -81,6 +83,7 @@ const menuList = [
     icon: "info",
     label: "Sobre mim",
     separator: false,
+    index: "#link-about"
   },
   {
     icon: "work",
