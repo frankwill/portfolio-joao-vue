@@ -7,6 +7,7 @@
             <img src="../../public/images/logo.svg" alt="" />
           </h1>
         </q-toolbar-title>
+        <!--Menu Hamburguer-->
         <q-btn
           dense
           flat
@@ -16,6 +17,7 @@
           style="color: #1aacf0"
           class="xs"
         />
+        <!--Nav links-->
         <div class="header-links gt-xs">
           <q-btn 
             no-caps 

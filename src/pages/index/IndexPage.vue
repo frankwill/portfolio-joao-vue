@@ -25,6 +25,7 @@
           data-aos="fade-right"
           data-aos-delay="1000"
           data-aos-easing="ease-in-sine"
+          href="https://drive.google.com/u/0/uc?id=1KzpM0knP5Ge9m3mFO6eQ6v8pdQT8LI9b&export=download"
         />
         <q-btn
           outline
@@ -34,6 +35,7 @@
           data-aos="fade-left"
           data-aos-delay="1000"
           data-aos-easing="ease-in-sine"
+          href="mailto:joaovitor80@ymail.com"
         />
       </article>
     </section>
@@ -61,7 +63,7 @@
         </p>
       </div>
       <article
-        class="contacts mobile-only"
+        class="contacts"
         data-aos="fade-right"
         data-aos-offset="500"
         data-aos-easing="ease-in-sine"
@@ -69,15 +71,14 @@
       >
         <ul class="contacts-list row">
           <li class="q-mb-xl items-center column">
-            <a class="col q-mx-xl" href="#"
-              ><img src="../../../public/images/instagram.svg" alt=""
+            <a class="col q-mx-xl" href="https://www.instagram.com/joaovitor_s.santos/" target="_blank">
+              <img src="../../../public/images/instagram.svg" alt=""
             /></a>
             <p class="contacts-tittle">Instagram</p>
             <p class="contacts-text">@joaovitor_s.santos</p>
           </li>
           <li class="q-mb-xl items-center column">
-            <a class="col q-mx-xl" href="#"
-              ><img src="../../../public/images/linkedin.svg" alt=""
+            <a class="col q-mx-xl" href="https://www.linkedin.com/in/joaovitor-santos/"  target="_blank"><img src="../../../public/images/linkedin.svg" alt=""
             /></a>
             <p class="contacts-tittle">Linkedin</p>
             <p class="contacts-text">in/joaovitor-santos/</p>
@@ -118,6 +119,7 @@ import { defineComponent } from "vue";
 import carouselScroll from "../../components/carouselScroll.vue";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import SweetScroll from 'sweet-scroll';
 
 AOS.init();
 
@@ -126,6 +128,7 @@ export default defineComponent({
   components: {
     carouselScroll,
     AOS,
+    SweetScroll
   },
 });
 </script>
