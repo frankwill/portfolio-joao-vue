@@ -67,14 +67,26 @@
         </q-scroll-area>
       </q-carousel-slide>
 
-      <q-carousel-slide name="layers" class="text-center">
+      <q-carousel-slide style="text-align: start; padding: 1rem;" name="layer" class="text-center experience-carousel">
         <q-scroll-area class="fit">
           <img class="experience-imagem" src="../../public/images/seade.jpg" alt="">
           <div class="q-mt-md">
-            {{ lorem }}
+            <h3 class="experience-tittle">SEADE | jan 2018 – jan 2019 Estagiário Administrativo</h3>
+            <ul class=" q-py-lg">
+              <li class="experience-item">
+                Administração de planilhas no Excel, elaboração de lógica e cálculos diversos;
+              </li>
+              <li class="experience-item">
+                Participação em licitação, pregão, seguros e contratos de órgãos públicos;
+              </li>
+              <li class="experience-item">
+                Participação de Workshops na administração pública pelo Governo Estadual. 
+              </li>
+            </ul>
           </div>
         </q-scroll-area>
       </q-carousel-slide>
+
     </q-carousel>
   </div>
 </template>
