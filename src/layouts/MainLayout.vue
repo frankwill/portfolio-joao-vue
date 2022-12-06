@@ -48,7 +48,7 @@
       v-model="rightDrawerOpen"
       side="right"
       :width="200"
-      class="menu xs It-sm"
+      class="menu xs"
     >
       <q-list class="menu__list">
         <template v-for="(menuItem, index) in menuList" :key="index">
