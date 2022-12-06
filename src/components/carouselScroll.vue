@@ -15,13 +15,13 @@
       navigation
       :navigation-position="navPos"
       navigation-icon="radio_button_unchecked"
-      height="350px"
+      height="600px"
       class="bg-grey-10 text-white rounded-borders carousel"
     >
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="style" class="experience-carousel">
         <q-scroll-area class="fit">
-          <div class="q-mt-md column items-center">
-            <img class="experience-imagem" src="../../public/images/dux.jpg" alt="">
+          <div class="column items-center">
+            <img class="q-pa-md experience-imagem" src="../../public/images/dux.jpg" alt="">
             <h3 class="experience-tittle">Dux Logistic | dez 2021 – ago 2022 | Assistente de Importação e Exportação</h3>
             <ul class=" q-py-sm">
               <li class="experience-item">
@@ -46,8 +46,8 @@
 
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="pirelli" class="experience-carousel">
         <q-scroll-area class="fit">
-          <div class="q-mt-md column items-center">
-            <img class="experience-imagem" src="../../public/images/pirelli.jpg" alt="">
+          <div class="column items-center">
+            <img class="q-pa-md experience-imagem" src="../../public/images/pirelli.jpg" alt="">
             <h3 class="experience-tittle">Pirelli | jan 2019 – dez 2020 | Estagiário Comercial</h3>
             <ul class=" q-py-sm">
               <li class="experience-item">
@@ -72,8 +72,8 @@
 
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="seade" class="experience-carousel">
         <q-scroll-area class="fit">
-          <div class="q-mt-md column items-center">
-            <img class="experience-imagem" src="../../public/images/seade.jpg" alt="">
+          <div class="column items-center">
+            <img class="q-pa-md experience-imagem" src="../../public/images/seade.jpg" alt="">
             <h3 class="experience-tittle">SEADE | jan 2018 – jan 2019 | Estagiário Administrativo</h3>
             <ul class=" q-py-sm">
               <li class="experience-item">
@@ -91,9 +91,7 @@
             </ul>
           </div>
         </q-scroll-area>
-      </q-carousel-slide>
-
-  
+      </q-carousel-slide>  
     </q-carousel>
   </div>
 </template>
