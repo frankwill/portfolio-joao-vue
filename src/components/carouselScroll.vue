@@ -16,7 +16,7 @@
       :navigation-position="navPos"
       navigation-icon="radio_button_unchecked"
       height="350px"
-      class="bg-grey-10 text-white rounded-borders"
+      class="bg-grey-10 text-white rounded-borders carousel"
     >
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="style" class="experience-carousel">
         <q-scroll-area class="fit">

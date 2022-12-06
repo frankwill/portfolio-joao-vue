@@ -14,8 +14,28 @@
           icon="menu"
           @click="toggleRightDrawer"
           style="color: #1aacf0"
-          class="mobile-only" 
+          class="xs"
         />
+        <div class="header-links gt-xs">
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Sobre mim"
+          />
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Experiência"
+          />
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Projetos"
+          />
+        </div>
       </q-toolbar>
     </q-header>
 

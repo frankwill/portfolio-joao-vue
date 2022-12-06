@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pt-xl">
-    <section class="info">
+    <section class="info column q-pa-sm">
       <h2
         class="info__tittle"
         data-aos="fade-left"
@@ -17,26 +17,25 @@
       >
         Bacharel em Administração de Empresas pela Universidade Anhembi Morumbi.
       </p>
-    </section>
-
-    <section class="info__button q-pa-md q-gutter-sm row justify-around info">
-      <q-btn
-        color="accent"
-        icon="file_download"
-        label="Download Cv"
-        data-aos="fade-right"
-        data-aos-delay="1000"
-        data-aos-easing="ease-in-sine"
-      />
-      <q-btn
-        outline
-        border-color="grey"
-        text-color="accent"
-        label="Entre em contato"
-        data-aos="fade-left"
-        data-aos-delay="1000"
-        data-aos-easing="ease-in-sine"
-      />
+      <article class="info__button q-pa-md q-gutter-sm row justify-center info">
+        <q-btn
+          color="accent"
+          icon="file_download"
+          label="Download Cv"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-sine"
+        />
+        <q-btn
+          outline
+          border-color="grey"
+          text-color="accent"
+          label="Entre em contato"
+          data-aos="fade-left"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-sine"
+        />
+      </article>
     </section>
 
     <section class="aboutme column items-center q-mt-xl q-gutter-y-md info">
@@ -58,7 +57,8 @@
         <h2 class="aboutme-tittle">Sobre mim</h2>
         <p class="aboutme-text text-center q-px-lg">
           Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em
-          Administração de empresas pela Universidade Anhembi Morumbi.</p>
+          Administração de empresas pela Universidade Anhembi Morumbi.
+        </p>
       </div>
       <article
         class="contacts mobile-only"
@@ -103,6 +103,13 @@
     <section>
       <carouselScroll />
     </section>
+
+    <footer class="footer bg-dark">
+      <h3 class="footer-tittle">
+        Desenvolvido por <strong>Frank William</strong> para
+        <strong>João Vitor</strong>
+      </h3>
+    </footer>
   </q-page>
 </template>
 
