@@ -7,6 +7,7 @@
             <img src="../../public/images/logo.svg" alt="" />
           </h1>
         </q-toolbar-title>
+        <!--Menu Hamburguer-->
         <q-btn
           dense
           flat
@@ -14,8 +15,31 @@
           icon="menu"
           @click="toggleRightDrawer"
           style="color: #1aacf0"
-          class="mobile-only" 
+          class="xs"
         />
+        <!--Nav links-->
+        <div class="header-links gt-xs">
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Sobre mim"
+            href="#link-about"
+          />
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Experiência"
+            href="#link-experience"
+          />
+          <q-btn 
+            no-caps 
+            flat 
+            color="accent" 
+            label="Projetos"
+          />
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -59,6 +83,7 @@ const menuList = [
     icon: "info",
     label: "Sobre mim",
     separator: false,
+    index: "#link-about"
   },
   {
     icon: "work",
