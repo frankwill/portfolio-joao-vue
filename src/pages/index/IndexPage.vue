@@ -84,14 +84,14 @@
             <p class="contacts-text">in/joaovitor-santos/</p>
           </li>
           <li class="q-mb-xl items-center column">
-            <a class="col q-mx-xl" href="#"
+            <a class="col q-mx-xl" href="tel:+5511963443449"
               ><img src="../../../public/images/telefone.svg" alt=""
             /></a>
             <p class="contacts-tittle">Telefone</p>
             <p class="contacts-text">(11) 96344-3449</p>
           </li>
           <li class="q-mb-xl items-center column">
-            <a class="col q-mx-xl" href="#"
+            <a class="col q-mx-xl" href="mailto:joaovitor80@ymail.com"
               ><img src="../../../public/images/email.svg" alt=""
             /></a>
             <p class="contacts-tittle">E-mail</p>
