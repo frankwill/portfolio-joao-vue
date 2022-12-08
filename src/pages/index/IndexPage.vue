@@ -103,7 +103,8 @@
 
     <section>
       <carouselScroll />
-    </section>
+      <carouselProjects />
+      </section>
 
     <footer class="footer bg-dark">
       <h3 class="footer-tittle">
@@ -117,6 +118,9 @@
 <script>
 import { defineComponent } from "vue";
 import carouselScroll from "../../components/carouselScroll.vue";
+import carouselProjects from '../../components/carouselProjects.vue'
+
+
 import "aos/dist/aos.css";
 import AOS from "aos";
 import SweetScroll from 'sweet-scroll';
@@ -127,6 +131,7 @@ export default defineComponent({
   name: "IndexPage",
   components: {
     carouselScroll,
+    carouselProjects,
     AOS,
     SweetScroll
   },
