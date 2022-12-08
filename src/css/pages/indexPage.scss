@@ -13,19 +13,11 @@
 }
 .menu {
     background: $dark-page;
-    
-    .menu__list {
-        margin-top: 2rem;
-        height: 6rem;
-        color: #FFF;
-    }
-    
-    .menu__list-item {
-        height: 5rem;
-    }
-    
-    .menu__list-icon {
-        color: $accent;
+
+    .my-menu-link {
+
+        color: white
+        
     }
 }
 
@@ -71,25 +63,58 @@
     }
 }
 
+.carousel {
+    max-width: 500px;
+    margin: 0 auto;
 
-.experience-carousel{
-
-    padding: 0;
-    margin: 0;
-
-    .experience-imagem {
-        width: 100%;
-    }
+    .experience-carousel{
     
-    .experience-tittle {
-        font-size: 1rem;
-        line-height: normal;
-        text-align: center;
-        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    
+        .experience-imagem {
+            width: 250px;
+        }
+        
+        .experience-tittle {
+            font-size: 1rem;
+            line-height: normal;
+            font-weight: 700;
+            text-align: center;
+        }
+    
+        .experience-item {
+            line-height: 2rem;
+        }
+
     }
 
-    .experience-item {
-        line-height: 2rem;
+    @media screen and (min-width: 768px) {
+        max-width: 700px;
+    }
+}
+
+.fit {
+    overflow: hidden;
+}
+
+.footer {
+
+    .footer-tittle {
+        font-size: 1rem;
+        color: $grey;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-tittle strong {
+        color: $accent;
+    }
+
+    @media screen and (max-width: 414px) {
+        .footer-tittle {
+            font-size: 13px;
+        }
     }
 }
 
