@@ -71,10 +71,6 @@
         </q-scroll-area>
       </q-carousel-slide>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 16ea04f45b4ad75f42f417bc9a71d8bf1085d522
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="layer" class="text-center experience-carousel">
         <q-scroll-area class="fit">
           <img class="experience-imagem" src="../../public/images/seade.jpg" alt="">
@@ -83,51 +79,18 @@
             <ul class=" q-py-lg">
               <li class="experience-item">
                 Administração de planilhas no Excel, elaboração de lógica e cálculos diversos;
-<<<<<<< HEAD
-=======
-      <q-carousel-slide style="text-align: start; padding: 1rem;" name="seade" class="experience-carousel">
-        <q-scroll-area class="fit">
-          <div class="column items-center">
-            <img class="q-pa-md experience-imagem" src="../../public/images/seade.jpg" alt="">
-            <h3 class="experience-tittle">SEADE | jan 2018 – jan 2019 | Estagiário Administrativo</h3>
-            <ul class=" q-py-sm">
-              <li class="experience-item">
-                Administração de planilhas no Excel,
-              </li>
-              <li class="experience-item">
-                elaboração de lógica e cálculos diversos;
->>>>>>> 47db3ee2b4e5838542a7a985d0dd329a83b96927
-=======
->>>>>>> 16ea04f45b4ad75f42f417bc9a71d8bf1085d522
               </li>
               <li class="experience-item">
                 Participação em licitação, pregão, seguros e contratos de órgãos públicos;
               </li>
               <li class="experience-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                Participação de Workshops na administração pública pelo Governo Estadual. 
-=======
-                Participação de Workshops na administração pública pelo Governo Estadual.
->>>>>>> 47db3ee2b4e5838542a7a985d0dd329a83b96927
-=======
-                Participação de Workshops na administração pública pelo Governo Estadual. 
->>>>>>> 16ea04f45b4ad75f42f417bc9a71d8bf1085d522
+                Participação de Workshops na administração pública pelo Governo Estadual.  
               </li>
             </ul>
           </div>
         </q-scroll-area>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      </q-carousel-slide>
 
-=======
-      </q-carousel-slide>  
->>>>>>> 47db3ee2b4e5838542a7a985d0dd329a83b96927
-=======
       </q-carousel-slide>
-
->>>>>>> 16ea04f45b4ad75f42f417bc9a71d8bf1085d522
     </q-carousel>
   </div>
 </template>
