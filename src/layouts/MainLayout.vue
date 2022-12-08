@@ -31,13 +31,14 @@
             flat 
             color="accent" 
             label="Experiência"
-            href="#link-experience"
+            href="#experience"
           />
           <q-btn 
             no-caps 
             flat 
             color="accent" 
             label="Projetos"
+            href="#projects"
           />
         </div>
       </q-toolbar>
@@ -50,22 +51,54 @@
       :width="200"
       class="menu xs"
     >
-      <q-list class="menu__list">
-        <template v-for="(menuItem, index) in menuList" :key="index">
-          <q-item
-            clickable
-            :active="menuItem.label === 'Outbox'"
-            v-ripple
-            class="menu__list-item"
-          >
-            <q-item-section avatar>
-              <q-icon :name="menuItem.icon" class="menu__list-icon" />
-            </q-item-section>
-            <q-item-section>
-              {{ menuItem.label }}
-            </q-item-section>
-          </q-item>
-        </template>
+      <q-list bordered padding class="rounded-borders text-white q-mt-lg">
+        <q-item
+          clickable
+          v-ripple
+          :active="link === 'inbox'"
+          @click="link = 'inbox'"
+          active-class="my-menu-link"
+          href="#about-me"
+          class="q-my-md"
+        >
+          <q-item-section avatar>
+            <q-icon name="info" color="accent"/>
+          </q-item-section>
+
+          <q-item-section>Sobre mim</q-item-section>
+        </q-item>
+
+        <q-item
+          clickable
+          v-ripple
+          :active="link === 'outbox'"
+          @click="link = 'outbox'"
+          active-class="my-menu-link"
+          href="#experience"
+          class="q-my-md"
+        >
+          <q-item-section avatar>
+            <q-icon name="work" color="accent"/>
+          </q-item-section>
+
+          <q-item-section>Experiência</q-item-section>
+        </q-item>
+
+        <q-item
+          clickable
+          v-ripple
+          :active="link === 'trash'"
+          @click="link = 'trash'"
+          active-class="my-menu-link"
+          href="#projects"
+          class="q-my-md"
+        >
+          <q-item-section avatar>
+            <q-icon name="leaderboard" color="accent"/>
+          </q-item-section>
+
+          <q-item-section>Projetos</q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
@@ -78,24 +111,6 @@
 <script>
 import { ref } from "vue";
 
-const menuList = [
-  {
-    icon: "info",
-    label: "Sobre mim",
-    separator: false,
-    index: "#link-about"
-  },
-  {
-    icon: "work",
-    label: "Experiências",
-    separator: false,
-  },
-  {
-    icon: "workspaces",
-    label: "Projetos",
-    separator: false,
-  },
-];
 
 export default {
   setup() {
@@ -106,8 +121,7 @@ export default {
       toggleRightDrawer() {
         rightDrawerOpen.value = !rightDrawerOpen.value;
       },
-      drawer: ref(true),
-      menuList,
+      drawer: ref(true)
     };
   },
 };

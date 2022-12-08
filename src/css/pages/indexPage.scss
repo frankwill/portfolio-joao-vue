@@ -13,19 +13,11 @@
 }
 .menu {
     background: $dark-page;
-    
-    .menu__list {
-        margin-top: 2rem;
-        height: 6rem;
-        color: #FFF;
-    }
-    
-    .menu__list-item {
-        height: 5rem;
-    }
-    
-    .menu__list-icon {
-        color: $accent;
+
+    .my-menu-link {
+
+        color: white
+        
     }
 }
 
@@ -119,7 +111,7 @@
         color: $accent;
     }
 
-    @media screen and (min-width: 414px) {
+    @media screen and (max-width: 414px) {
         .footer-tittle {
             font-size: 13px;
         }

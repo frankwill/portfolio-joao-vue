@@ -40,7 +40,7 @@
       </article>
     </section>
 
-    <section class="aboutme column items-center q-mt-xl q-gutter-y-md info">
+    <section id="about-me" class="aboutme column items-center q-mt-xl q-gutter-y-md info">
       <img
         class="aboutme-image"
         src="../../../public/images/profile-img-1.svg"
@@ -56,7 +56,7 @@
         data-aos-easing="ease-in-out"
         data-aos-once="true"
       >
-        <h2 id="link-about" class="aboutme-tittle">Sobre mim</h2>
+        <h2 class="aboutme-tittle">Sobre mim</h2>
         <p class="aboutme-text text-center q-px-lg">
           Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em
           Administração de empresas pela Universidade Anhembi Morumbi.

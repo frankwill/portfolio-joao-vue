@@ -1,11 +1,12 @@
 <template>
   <div class="q-pa-md"
-    data-aos="fade-right"
-    data-aos-delay="1000"
-    data-aos-easing="ease-in-sine"
-    data-aos-once="true"
+  data-aos="fade-right"
+  data-aos-delay="1000"
+  data-aos-easing="ease-in-sine"
+  data-aos-once="true"
+  id="experience"
   >
-    <h2 id="link-experience" class="text-sections text-center">Experiência</h2>
+    <h2 class="text-sections text-center">Experiência</h2>
     <q-carousel
       v-model="slide"
       swipeable
