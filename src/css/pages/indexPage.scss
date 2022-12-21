@@ -1,5 +1,5 @@
 .info {
-    text-align: center;
+
     .info__tittle {
         color: white;
         font-size: 1.5rem;
@@ -9,6 +9,10 @@
     .info__text {
         font-size: 1rem;
         color: $grey;
+    }
+
+    .info-btn {
+        max-width: 200px;
     }
 }
 .menu {
