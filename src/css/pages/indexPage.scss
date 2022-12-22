@@ -122,6 +122,15 @@
         }
         
     }
+
+    @media screen and (min-width: 1920px) {
+        
+        margin-left: 10rem;
+
+        .info-image {
+            right: 400px;
+        }
+    }
 }
 
 
