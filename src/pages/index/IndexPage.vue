@@ -3,8 +3,8 @@
     <div class="box1">
       <div class="inner row">
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <h2>Olá, meu nome é João Vitor!</h2>
-          <p>
+          <h2 class="info-title">Olá, meu nome é João Vitor!</h2>
+          <p class="info-text">
             Bacharel em Administração de Empresas <br />
             pela Universidade Anhembi Morumbi.
           </p>
@@ -28,10 +28,27 @@
             />
           </div>
           <!-- (Quasar Visibility) gt-xs exibe apenas em janelas maiores que extra small-->
-          <img class="gt-xs" src="../../../public/images/ba-graph-1.svg" alt="">
+          <img class="info-image gt-xs" src="../../../public/images/ba-graph-1.svg" alt="">
+          <div class="contact-info gt-md">
+            <ul>
+              <li class="contact-info_item">
+                <a href="https://www.instagram.com/joaovitor_s.santos/" target="_blank"><img src="../../../public/images/Instagram-lateral.svg" alt=""></a>
+              </li>
+              <li class="contact-info_item">
+                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"><img src="../../../public/images/Linkedin-lateral.svg" alt=""></a>
+              </li>
+              <li class="contact-info_item">
+                <a href="mailto:joaovitor80@ymail.com" target="_blank"><img src="../../../public/images/Email-lateral.svg" alt=""></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+
+
+
     <!--
     <footer class="footer bg-dark">
       <h3 class="footer-tittle">
