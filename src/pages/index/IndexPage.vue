@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pt-xl">
-    <div class="box1">
+    <div class="box1" id="info">
       <div class="inner row">
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h2 class="info-title">Olá, meu nome é João Vitor!</h2>
@@ -42,6 +42,17 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="inner row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="../../../public/images/profile-img-1.svg" alt="">
+          <p>Sobre mim</p>
+          <p>Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em Administração <br>
+            de empresas pela Universidade Anhembi Morumbi.</p>
         </div>
       </div>
     </div>
