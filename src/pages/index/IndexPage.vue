@@ -32,13 +32,13 @@
           <div class="contact-info gt-md">
             <ul>
               <li class="contact-info_item">
-                <a href="https://www.instagram.com/joaovitor_s.santos/" target="_blank"><img src="../../../public/images/Instagram-lateral.svg" alt=""></a>
+                <a href="https://www.instagram.com/joaovitor_s.santos/" target="_blank"><img src="/images/Instagram-lateral.svg" alt=""></a>
               </li>
               <li class="contact-info_item">
-                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"><img src="../../../public/images/Linkedin-lateral.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"><img src="/images/Linkedin-lateral.svg" alt=""></a>
               </li>
               <li class="contact-info_item">
-                <a href="mailto:joaovitor80@ymail.com" target="_blank"><img src="../../../public/images/Email-lateral.svg" alt=""></a>
+                <a href="mailto:joaovitor80@ymail.com" target="_blank"><img src="/images/Email-lateral.svg" alt=""></a>
               </li>
             </ul>
           </div>
