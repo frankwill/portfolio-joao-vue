@@ -59,6 +59,43 @@
       </div>
     </div>
 
+    <div class="box3" id="contatos">
+      <div class="row">
+        <div class="contatos-container col-xs-12 col-sm-6 col-md-4">
+          <ul class="contatos-lista ">
+            <li class="items-center">
+              <a href=""><img src="/images/instagram.svg" alt=""></a>
+              <p>Instagram</p>
+              <p>@joaovitor_s.santos</p>
+            </li>
+            <li>
+              <a href=""><img src="/images/linkedin.svg" alt=""></a>
+              <p>Linkedin</p>
+              <p>in/joaovitor-santos/</p>
+            </li>
+            <li>
+              <a href=""><img src="/images/telefone.svg" alt=""></a>
+              <p>Telefone</p>
+              <p>(11) 96344-3449</p>
+            </li>
+            <li>
+              <a href=""><img src="/images/email.svg" alt=""></a>
+              <p>E-mail</p>
+              <p>joaovitor80@ymail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="column" style="height: 150px">
+      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
+      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
+
+      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
+      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
+    </div>
+
 
 
 
