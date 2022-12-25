@@ -88,6 +88,14 @@
       </div>
     </div>
 
+    <div class="box4" id="experiencias">
+      <div class="row q-mt-xl">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <JobExperience />
+        </div>
+      </div>
+    </div>
+
 
 
     <!--
@@ -102,7 +110,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import carouselScroll from "../../components/carouselScroll.vue";
+import JobExperience from "../../components/JobExperience.vue";
 import carouselProjects from "../../components/carouselProjects.vue";
 
 import "aos/dist/aos.css";
@@ -114,7 +122,7 @@ AOS.init();
 export default defineComponent({
   name: "IndexPage",
   components: {
-    carouselScroll,
+    JobExperience,
     carouselProjects,
     AOS,
     SweetScroll,

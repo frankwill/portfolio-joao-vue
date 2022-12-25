@@ -21,26 +21,30 @@
     >
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="style" class="experience-carousel">
         <q-scroll-area class="fit">
-          <div class="column items-center">
-            <img class="q-pa-md experience-imagem" src="../../public/images/dux.jpg" alt="">
-            <h3 class="experience-tittle">Dux Logistic | dez 2021 – ago 2022 | Assistente de Importação e Exportação</h3>
-            <ul class=" q-py-sm">
-              <li class="experience-item">
-                Utilização de sistemas ERP (Global e Magaya) para processos de importação & exportação;
-              </li>
-              <li class="experience-item">
-                Acompanhamento e conferência de Invoice, Packing List, PO, AWB, ETD, ETA, Booking;
-              </li>
-              <li class="experience-item">
-                Auxilio em questões envolvendo desembaraço aduaneiro;
-              </li>
-              <li class="experience-item">
-                Validação do Fechamento de Processos;
-              </li>
-              <li class="experience-item">
-                Atuação na área de Pré- Embarque | Pôs- Embarque | Marítimo.
-              </li>
-            </ul>
+          <div class="column">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="items-center">
+                <img class="q-pa-md experience-imagem" src="../../public/images/dux.jpg" alt="">
+                <h3 class="experience-tittle">Dux Logistic | dez 2021 – ago 2022 | Assistente de Importação e Exportação</h3>
+                <ul class="q-py-sm">
+                  <li class="experience-item">
+                    Utilização de sistemas ERP (Global e Magaya) para processos de importação & exportação;
+                  </li>
+                  <li class="experience-item">
+                    Acompanhamento e conferência de Invoice, Packing List, PO, AWB, ETD, ETA, Booking;
+                  </li>
+                  <li class="experience-item">
+                    Auxilio em questões envolvendo desembaraço aduaneiro;
+                  </li>
+                  <li class="experience-item">
+                    Validação do Fechamento de Processos;
+                  </li>
+                  <li class="experience-item">
+                    Atuação na área de Pré- Embarque | Pôs- Embarque | Marítimo.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </q-scroll-area>
       </q-carousel-slide>
@@ -73,20 +77,22 @@
 
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="layer" class="text-center experience-carousel">
         <q-scroll-area class="fit">
-          <img class="experience-imagem" src="../../public/images/seade.jpg" alt="">
-          <div class="q-mt-md">
-            <h3 class="experience-tittle">SEADE | jan 2018 – jan 2019 Estagiário Administrativo</h3>
-            <ul class=" q-py-lg">
-              <li class="experience-item">
-                Administração de planilhas no Excel, elaboração de lógica e cálculos diversos;
-              </li>
-              <li class="experience-item">
-                Participação em licitação, pregão, seguros e contratos de órgãos públicos;
-              </li>
-              <li class="experience-item">
-                Participação de Workshops na administração pública pelo Governo Estadual.  
-              </li>
-            </ul>
+          <div class="column items-center">
+            <img class="experience-imagem" src="../../public/images/seade.jpg" alt="">
+            <div class="q-mt-md">
+              <h3 class="experience-tittle">SEADE | jan 2018 – jan 2019 Estagiário Administrativo</h3>
+              <ul class=" q-py-lg">
+                <li class="experience-item">
+                  Administração de planilhas no Excel, elaboração de lógica e cálculos diversos;
+                </li>
+                <li class="experience-item">
+                  Participação em licitação, pregão, seguros e contratos de órgãos públicos;
+                </li>
+                <li class="experience-item">
+                  Participação de Workshops na administração pública pelo Governo Estadual.  
+                </li>
+              </ul>
+            </div>
           </div>
         </q-scroll-area>
 
@@ -99,7 +105,7 @@
 import { ref } from "vue";
 
 export default {
-  name: "carouselScroll",
+  name: "JobExperience",
   setup() {
     return {
       navPos: ref('bottom'),
