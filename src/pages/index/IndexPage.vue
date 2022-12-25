@@ -62,40 +62,31 @@
     <div class="box3" id="contatos">
       <div class="row">
         <div class="contatos-container col-xs-12 col-sm-6 col-md-4">
-          <ul class="contatos-lista ">
-            <li class="items-center">
+          <ul class="contatos-lista row mobile-only lt-sm">
+            <li class="column items-center col-6 q-mb-lg">
               <a href=""><img src="/images/instagram.svg" alt=""></a>
-              <p>Instagram</p>
+              <h4>Instagram</h4>
               <p>@joaovitor_s.santos</p>
             </li>
-            <li>
+            <li class="column items-center col-6 q-mb-lg">
               <a href=""><img src="/images/linkedin.svg" alt=""></a>
-              <p>Linkedin</p>
+              <h4>Linkedin</h4>
               <p>in/joaovitor-santos/</p>
             </li>
-            <li>
+            <li class="column items-center col-6 q-mb-lg">
               <a href=""><img src="/images/telefone.svg" alt=""></a>
-              <p>Telefone</p>
+              <h4>Telefone</h4>
               <p>(11) 96344-3449</p>
             </li>
-            <li>
+            <li class="column items-center col-6 q-mb-lg">
               <a href=""><img src="/images/email.svg" alt=""></a>
-              <p>E-mail</p>
+              <h4>E-mail</h4>
               <p>joaovitor80@ymail.com</p>
             </li>
           </ul>
         </div>
       </div>
     </div>
-
-    <div class="column" style="height: 150px">
-      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
-      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
-
-      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
-      <div class="col-3 col-sm-6">.col-3 .col-sm-6</div>
-    </div>
-
 
 
 
