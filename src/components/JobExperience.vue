@@ -1,12 +1,11 @@
 <template>
-  <div class="q-pa-md"
+  <div class="q-pa-md lt-sm"
   data-aos="fade-right"
   data-aos-delay="1000"
   data-aos-easing="ease-in-sine"
   data-aos-once="true"
   id="experience"
   >
-    <h2 class="text-sections text-center">Experiência</h2>
     <q-carousel
       v-model="slide"
       swipeable
@@ -22,7 +21,7 @@
       <q-carousel-slide style="text-align: start; padding: 1rem;" name="style" class="experience-carousel">
         <q-scroll-area class="fit">
           <div class="column">
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="items-center">
                 <img class="q-pa-md experience-imagem" src="../../public/images/dux.jpg" alt="">
                 <h3 class="experience-tittle">Dux Logistic | dez 2021 – ago 2022 | Assistente de Importação e Exportação</h3>

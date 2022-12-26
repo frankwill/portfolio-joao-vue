@@ -89,9 +89,14 @@
     </div>
 
     <div class="box4" id="experiencias">
-      <div class="row q-mt-xl">
+      <div class="row justify-center">
+        <h2 class="text-center experience-title text-sections">Experiência</h2>
+        <p class="experience-text">Veja algumas empresas renomadas no mercado que já trabalhei, tanto CLT como estágiario.</p>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <JobExperience />
+        </div>
+        <div class="col-10">
+          <JobExperienceTablet />
         </div>
       </div>
     </div>
@@ -112,6 +117,7 @@
 import { defineComponent } from "vue";
 import JobExperience from "../../components/JobExperience.vue";
 import carouselProjects from "../../components/carouselProjects.vue";
+import JobExperienceTablet from "src/components/JobExperienceTablet.vue";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -126,7 +132,8 @@ export default defineComponent({
     carouselProjects,
     AOS,
     SweetScroll,
-  },
+    JobExperienceTablet
+},
 });
 </script>
 
