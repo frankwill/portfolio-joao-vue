@@ -47,7 +47,7 @@
     </div>
 
     <div class="box2" id="sobre">
-      <div class="row">
+      <div class="row q-pt-xl">
         <div class="sobre-container col-xs-12 col-sm-6 col-md-4">
           <img src="/images/profile-img-1.svg" alt="" class="sobre-img">
           <div>
@@ -90,12 +90,10 @@
 
     <div class="box4" id="experiencias">
       <div class="row justify-center">
-        <h2 class="text-center experience-title text-sections">Experiência</h2>
-        <p class="experience-text">Veja algumas empresas renomadas no mercado que já trabalhei, tanto CLT como estágiario.</p>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <JobExperience />
         </div>
-        <div class="col-10">
+        <div class="col-10 ">
           <JobExperienceTablet />
         </div>
       </div>
