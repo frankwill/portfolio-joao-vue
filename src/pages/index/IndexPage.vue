@@ -28,17 +28,29 @@
             />
           </div>
           <!-- (Quasar Visibility) gt-xs exibe apenas em janelas maiores que extra small-->
-          <img class="info-image gt-xs" src="../../../public/images/ba-graph-1.svg" alt="">
-          <div class="contact-info gt-md">
+          <img
+            class="info-image gt-xs"
+            src="../../../public/images/ba-graph-1.svg"
+            alt=""
+          />
+          <div class="contact-info gt-xs">
             <ul>
               <li class="contact-info_item">
-                <a href="https://www.instagram.com/joaovitor_s.santos/" target="_blank"><img src="/images/Instagram-lateral.svg" alt=""></a>
+                <a
+                  href="https://www.instagram.com/joaovitor_s.santos/"
+                  target="_blank"
+                  ><img src="/images/Instagram-lateral.svg" alt=""
+                /></a>
               </li>
               <li class="contact-info_item">
-                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"><img src="/images/Linkedin-lateral.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"
+                  ><img src="/images/LinkedIn-lateral.svg" alt=""
+                /></a>
               </li>
               <li class="contact-info_item">
-                <a href="mailto:joaovitor80@ymail.com" target="_blank"><img src="/images/Email-lateral.svg" alt=""></a>
+                <a href="mailto:joaovitor80@ymail.com" target="_blank"
+                  ><img src="/images/Email-lateral.svg" alt=""
+                /></a>
               </li>
             </ul>
           </div>
@@ -49,11 +61,13 @@
     <div class="box2" id="sobre">
       <div class="row q-pt-xl">
         <div class="sobre-container col-xs-12 col-sm-6 col-md-4">
-          <img src="/images/profile-img-1.svg" alt="" class="sobre-img">
+          <img src="/images/profile-img-1.svg" alt="" class="sobre-img shadow-12" />
           <div>
-          <p class="sobre-titulo">Sobre mim</p>
-          <p class="sobre-texto">Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel em Administração
-            de empresas pela Universidade Anhembi Morumbi.</p>
+            <p class="sobre-titulo">Sobre mim</p>
+            <p class="sobre-texto">
+              Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel
+              em Administração de empresas pela Universidade Anhembi Morumbi.
+            </p>
           </div>
         </div>
       </div>
@@ -64,22 +78,22 @@
         <div class="contatos-container col-xs-12 col-sm-6 col-md-4">
           <ul class="contatos-lista row mobile-only lt-sm">
             <li class="column items-center col-6 q-mb-lg">
-              <a href=""><img src="/images/instagram.svg" alt=""></a>
+              <a href=""><img src="/images/instagram.svg" alt="" /></a>
               <h4>Instagram</h4>
               <p>@joaovitor_s.santos</p>
             </li>
             <li class="column items-center col-6 q-mb-lg">
-              <a href=""><img src="/images/linkedin.svg" alt=""></a>
+              <a href=""><img src="/images/linkedin.svg" alt="" /></a>
               <h4>Linkedin</h4>
               <p>in/joaovitor-santos/</p>
             </li>
             <li class="column items-center col-6 q-mb-lg">
-              <a href=""><img src="/images/telefone.svg" alt=""></a>
+              <a href=""><img src="/images/telefone.svg" alt="" /></a>
               <h4>Telefone</h4>
               <p>(11) 96344-3449</p>
             </li>
             <li class="column items-center col-6 q-mb-lg">
-              <a href=""><img src="/images/email.svg" alt=""></a>
+              <a href=""><img src="/images/email.svg" alt="" /></a>
               <h4>E-mail</h4>
               <p>joaovitor80@ymail.com</p>
             </li>
@@ -93,12 +107,24 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <JobExperience />
         </div>
-        <div class="col-10 ">
+        <div class="col-10">
           <JobExperienceTablet />
         </div>
       </div>
     </div>
 
+    <div class="box5" id="projects">
+      <div class="row justify-center">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <carouselProjects />
+        </div>
+      </div>
+      <div class="column justify-center">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <carouselProjectsTablet />
+        </div>
+      </div>
+    </div>
 
 
     <!--
@@ -116,6 +142,7 @@ import { defineComponent } from "vue";
 import JobExperience from "../../components/JobExperience.vue";
 import carouselProjects from "../../components/carouselProjects.vue";
 import JobExperienceTablet from "src/components/JobExperienceTablet.vue";
+import carouselProjectsTablet from 'src/components/carouselProjectsTablet.vue';
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -130,8 +157,9 @@ export default defineComponent({
     carouselProjects,
     AOS,
     SweetScroll,
-    JobExperienceTablet
-},
+    JobExperienceTablet,
+    carouselProjectsTablet
+  },
 });
 </script>
 

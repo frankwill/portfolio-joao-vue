@@ -6,6 +6,11 @@
   data-aos-once="true"
   id="experience"
   >
+  <h2 class="experience-title text-sections">Experiência</h2>
+    <p class="experience-text q-mb-md">
+      Veja algumas empresas renomadas no mercado que já trabalhei, tanto CLT
+      como estágiario.
+    </p>
     <q-carousel
       v-model="slide"
       swipeable

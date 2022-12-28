@@ -7,6 +7,7 @@
     data-aos-once="true"
   >
     <h2 id="projects" class="text-sections text-center">Projetos</h2>
+    <p class="text-center projects-text q-mb-md">Alguns dos projetos que desenvolvi através de aprendizados profissionais e cursos profissionalizantes.</p>
     <q-carousel
       v-model="slide"
       swipeable
@@ -16,8 +17,8 @@
       navigation
       :navigation-position="navPos"
       navigation-icon="radio_button_unchecked"
-      height="610px"
-      class="bg-grey-10 text-white rounded-borders carousel"
+      height="640px"
+      class="bg-grey-10 text-white rounded-borders carousel lt-sm"
     >
       <!--Dashboard de vendas-->
       <q-carousel-slide
@@ -57,7 +58,6 @@
                 icon="link"
                 label="Visualizar Dashboard"
                 target="_blank"
-                class="q-mt-md"
               />
             </ul>
           </div>
@@ -107,7 +107,6 @@
                 icon="link"
                 label="Visualizar Dashboard"
                 target="_blank"
-                class="q-mt-md"
               />
             </ul>
           
@@ -157,7 +156,6 @@
                 icon="link"
                 label="Visualizar Dashboard"
                 target="_blank"
-                class="q-mt-md"
               />
             </ul>
           
@@ -207,7 +205,6 @@
                 icon="link"
                 label="Visualizar Dashboard"
                 target="_blank"
-                class="q-mt-md"
               />
             </ul>
         </q-scroll-area>

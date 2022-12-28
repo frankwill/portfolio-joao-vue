@@ -15,7 +15,7 @@
       navigation
       padding
       height="300px"
-      class="bg-transparent rounded-borders"
+      class="bg-transparent rounded-borders "
     >
       <q-carousel-slide :name="1" class="column no-wrap">
         <div
@@ -29,7 +29,7 @@
           "
         >
           <q-img
-            class="rounded-borders col-12 full-height"
+            class="rounded-borders col-12 full-height shadow-12"
             src="/images/dux.jpg"
             style="height: 280px; max-width: 500px;"
           />
