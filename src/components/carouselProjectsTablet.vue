@@ -1,5 +1,11 @@
 <template>
-  <div class="q-pa-md row justify-center q-gutter-lg gt-xs">
+  <div 
+    class="q-pa-md row justify-center q-gutter-lg gt-xs"
+    data-aos="fade-right"
+    data-aos-delay="1000"
+    data-aos-easing="ease-in-sine"
+    data-aos-once="true"
+  >
     <q-card class="my-card shadow-12">
       <img src="../../public/images/dashboard-1.png" />
       <a

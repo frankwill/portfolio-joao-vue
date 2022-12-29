@@ -1,5 +1,12 @@
 <template>
-  <div class="q-pa-md gt-xs">
+  <div 
+    class="q-pa-md gt-xs"
+    data-aos="fade-left"
+    data-aos-easing="ease-in-out"
+    data-aos-duration="2000"
+    data-aos-offset="400"
+    data-aos-once="true"
+  >
     <h2 class="experience-title text-sections">Experiência</h2>
     <p class="experience-text">
       Veja algumas empresas renomadas no mercado que já trabalhei, tanto CLT

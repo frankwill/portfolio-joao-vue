@@ -43,8 +43,18 @@
             class="info-image gt-xs"
             src="../../../public/images/ba-graph-1.svg"
             alt=""
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="2000"
+            data-aos-once="true"
           />
-          <div class="contact-info gt-xs">
+          <div 
+            class="contact-info gt-xs"
+            data-aos="fade-down"
+            data-aos-delay="1000"
+            data-aos-easing="ease-in-sine"
+            data-aos-once="true"
+          >
             <ul>
               <li class="contact-info_item">
                 <a
