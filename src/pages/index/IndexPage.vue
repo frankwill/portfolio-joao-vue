@@ -190,13 +190,12 @@
       </div>
     </div>
 
-    <!--
     <footer class="footer bg-dark">
       <h3 class="footer-tittle">
         Desenvolvido por <strong>Frank William</strong> para
         <strong>João Vitor</strong>
       </h3>
-    </footer> -->
+    </footer>
   </q-page>
 </template>
 
