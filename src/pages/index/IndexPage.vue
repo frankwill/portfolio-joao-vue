@@ -2,8 +2,18 @@
   <q-page class="q-pt-xl">
     <div class="box1" id="info">
       <div class="inner row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <h2 class="info-title">Olá, meu nome é João Vitor!</h2>
+        <div 
+          class="col-xs-12 col-sm-6 col-md-4">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="3000"
+          >
+          <h2
+            class="info-title"
+          >
+            Olá, meu nome é João Vitor!
+          </h2>
           <p class="info-text">
             Bacharel em Administração de Empresas <br />
             pela Universidade Anhembi Morumbi.
@@ -27,6 +37,7 @@
               no-caps
             />
           </div>
+        </div>
           <!-- (Quasar Visibility) gt-xs exibe apenas em janelas maiores que extra small-->
           <img
             class="info-image gt-xs"
@@ -43,7 +54,9 @@
                 /></a>
               </li>
               <li class="contact-info_item">
-                <a href="https://www.linkedin.com/in/joaovitor-santos/" target="_blank"
+                <a
+                  href="https://www.linkedin.com/in/joaovitor-santos/"
+                  target="_blank"
                   ><img src="/images/LinkedIn-lateral.svg" alt=""
                 /></a>
               </li>
@@ -61,21 +74,60 @@
     <div class="box2" id="sobre">
       <div class="row q-pt-xl">
         <div class="sobre-container col-xs-12 col-sm-6 col-md-4">
-          <img src="/images/profile-img-1.svg" alt="" class="sobre-img shadow-12" />
+          <img
+            src="/images/profile-img-1.svg"
+            alt=""
+            class="sobre-img shadow-12"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+            data-aos-offset="100"
+            data-aos-once="true"
+            
+          />
           <div>
-            <p class="sobre-titulo">Sobre mim</p>
-            <p class="sobre-texto">
-              Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel
-              em Administração de empresas pela Universidade Anhembi Morumbi.
-            </p>
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+              data-aos-offset="100"
+              data-aos-once="true"
+            >
+              <p class="sobre-titulo">Sobre mim</p>
+              <p 
+                class="sobre-texto"
+                data-aos="fade-up"
+              >
+                Meu nome é João Vitor Souza do Santos, tenho 22 anos, sou bacharel
+                em Administração de empresas pela Universidade Anhembi Morumbi.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="box3" id="contatos">
-      <div class="row">
-        <div class="contatos-container col-xs-12 col-sm-6 col-md-4">
+      <div 
+        class="row"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+        data-aos-offset="90"
+        data-aos-once="true"  
+      >
+        <div 
+          class="contatos-container col-xs-12 col-sm-6 col-md-4"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1000"
+          data-aos-delay="2000"
+          data-aos-offset="90"
+          data-aos-once="true"
+        >
           <ul class="contatos-lista row mobile-only lt-sm">
             <li class="column items-center col-6 q-mb-lg">
               <a href=""><img src="/images/instagram.svg" alt="" /></a>
@@ -103,7 +155,9 @@
     </div>
 
     <div class="box4" id="experiencias">
-      <div class="row justify-center">
+      <div 
+        class="row justify-center"
+      >
         <div class="col-xs-12 col-sm-6 col-md-4">
           <JobExperience />
         </div>
@@ -126,7 +180,6 @@
       </div>
     </div>
 
-
     <!--
     <footer class="footer bg-dark">
       <h3 class="footer-tittle">
@@ -142,7 +195,7 @@ import { defineComponent } from "vue";
 import JobExperience from "../../components/JobExperience.vue";
 import carouselProjects from "../../components/carouselProjects.vue";
 import JobExperienceTablet from "src/components/JobExperienceTablet.vue";
-import carouselProjectsTablet from 'src/components/carouselProjectsTablet.vue';
+import carouselProjectsTablet from "src/components/carouselProjectsTablet.vue";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -158,7 +211,7 @@ export default defineComponent({
     AOS,
     SweetScroll,
     JobExperienceTablet,
-    carouselProjectsTablet
+    carouselProjectsTablet,
   },
 });
 </script>

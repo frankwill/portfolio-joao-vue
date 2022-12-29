@@ -1,13 +1,15 @@
 <template>
   <div class="q-pa-md lt-sm"
-  data-aos="fade-right"
-  data-aos-delay="1000"
   data-aos-easing="ease-in-sine"
+  data-aos="fade-right"
+  data-aos-duration="1000"
+  data-aos-delay="1000"
+  data-aos-offset="500"
   data-aos-once="true"
   id="experience"
   >
   <h2 class="experience-title text-sections">Experiência</h2>
-    <p class="experience-text q-mb-md">
+    <p class="experience-text q-mb-xl">
       Veja algumas empresas renomadas no mercado que já trabalhei, tanto CLT
       como estágiario.
     </p>

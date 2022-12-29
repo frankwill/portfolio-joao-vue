@@ -31,7 +31,7 @@
             flat 
             color="accent" 
             label="Experiência"
-            href="#experience"
+            href="#experiencias"
           />
           <q-btn 
             no-caps 
